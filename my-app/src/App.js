@@ -2,6 +2,8 @@ import './App.css';
 import FavouriteColor from  './hooks.js';
 import Cars from './cars.js';
 import { useState } from 'react';
+import Timer from './useeffect.js';
+import Counter from './useeffect2.js';
 // -------------------------------------------------------------------
 // Data storage 
 const user = {
@@ -92,6 +94,8 @@ const listItems=products.map(product=>
       <CountButton />
       <FavouriteColor/>
       <Cars/>
+      <Timer/>
+      <Counter/>
     </div>
   );
 }
