@@ -4,6 +4,8 @@ import Cars from './cars.js';
 import { useState } from 'react';
 import Timer from './useeffect.js';
 import Counter from './useeffect2.js';
+import Component1 from './compoDrilling';
+import Componentuc from './usecontext';
 // -------------------------------------------------------------------
 // Data storage 
 const user = {
@@ -96,6 +98,8 @@ const listItems=products.map(product=>
       <Cars/>
       <Timer/>
       <Counter/>
+      <Component1/>
+      <Componentuc/>
     </div>
   );
 }
